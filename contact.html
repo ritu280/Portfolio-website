@@ -5,54 +5,62 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ritu Sinha - </title>
-  <link rel="stylesheet" href="styles.css">
+  <title>Personal Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <div class="container">
-    <div class="sidebar">
+    <div class="sidebar sidebarGo">
+
       <nav>
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/intro.html">About Me</a></li>
-          <li><a href="/services.html">Services</a></li>
-          <li><a href="/blog.html">Blog</a></li>
-          <li><a href="/contact.html">contact Me</a></li>
-        </ul>
+          <ul>
+              <li><a href="/">Home</a></li>
+              <li><a href="/intro.html">About me</a></li>
+              <li><a href="/blog.html">My Blogs</a></li>
+              <li><a href="/project.html">My Projects</a></li>
+              <li><a href="/CV.pdf">Curriculam Vitae</a></li>
+              <li><a href="/contact.html">Contact Me</a></li>
+          </ul>
       </nav>
-    </div>
+  </div>
     <div class="main">
-      <div class="contactform">
-        <hi>Contact me for work/general enquiries</hi>
+      <div class="hamburger">
+        <img class="ham" src="Ham.png" alt="" width="23px">
+        <img class="cross" src="cross.png" alt="" width="23px">
+      </div>
+      <div class="contactForm">
+        <h1>Contact me for work/ general Enquiries</h1>
         <form>
           <div class="mb-3">
-            <label for="clientemail" class="form-label">Name</label>
-            <input type="name" class="form-control" id="clientemail" aria-describedby="emailHelp">
-            
+            <label for="clientName" class="form-label">Name</label>
+            <input type="Name" class="form-control" id="clientEmail" aria-describedby="emailHelp">
           </div>
           <div class="mb-3">
-            <label for="clientemail" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="clientemail" aria-describedby="emailHelp">
-            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            <label for="clientEmail" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="clientEmail" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email and Phone with anyone else.</div>
           </div>
           <div class="mb-3">
-            <label for="clientphone" class="form-label">Phone</label>
-            <input type="phone" class="form-control" id="exampleInputPassword1">
+            <label for="clientPhone" class="form-label">Phone no.</label>
+            <input type="phone" class="form-control" id="clientPhone">
           </div>
           <div class="mb-3">
-            <label for="clientemail" class="form-label">Enquiry</label>
-            <input type="email" class="form-control" id="clientemail" aria-describedby="emailHelp">
+            <label for="clientName" class="form-label">Enquiry</label>
+            <input type="Enquiry" class="form-control" id="clientEmail" aria-describedby="emailHelp">
           </div>
           <div class="mb-3" id="form-check">
-            <input type="checkbox" class="form-check-input" id="isclient">
-            <label class="form-check-label" for="exampleCheck1">I want you to work on a project with me</label>
+            <input type="checkbox" class="form-check-input" id="isClient">
+            <label class="form-check-label" for="isClient">I want you to work on a project with me</label>
           </div>
-          <button type="submit" class="btn btn-sm">Submit</button>
+          <div class="buttons">
+            <button type="submit" class="btn btn-sm">Submit</button>
+          </div>
         </form>
       </div>
     </div>
   </div>
+  <script src="script.js"></script>
 </body>
 
 </html>
