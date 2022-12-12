@@ -1,4 +1,4 @@
-console.log("script running...")
+console.log("Script running...")
 document.querySelector('.cross').style.display = 'none';
 document.querySelector('.hamburger').addEventListener("click", ()=>{
     document.querySelector('.sidebar').classList.toggle('sidebarGo');
@@ -8,11 +8,9 @@ document.querySelector('.hamburger').addEventListener("click", ()=>{
     }
     else{
         document.querySelector('.ham').style.display = 'none'
-        setTimeout{() => {
-
-        
+        setTimeout(() => {
         document.querySelector('.cross').style.display = 'inline'
-    },300};
-
+        }, 300);
     }
+
 })
